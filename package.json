@@ -1,0 +1,31 @@
+{
+  "name": "session-studio",
+  "module": "src/server/index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@hono/node-server": "^1.19.9",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/bun": "latest",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "tailwindcss": "^4.2.1",
+    "vite": "^7.3.1"
+  },
+  "scripts": {
+    "dev": "bun run scripts/dev.ts",
+    "build": "vite build",
+    "start": "bun run src/server/index.ts",
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "hono": "^4.12.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1"
+  }
+}
