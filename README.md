@@ -54,4 +54,4 @@ Each `.jsonl` file becomes a session in the list. Session Studio reads them dire
 
 ## Related
 
-- [agent-runner](https://github.com/dottie-weaver/agent-runner) — the lightweight agent runtime that produces the `.jsonl` sessions this tool visualizes
+- [agent-runner](https://github.com/scoutos-labs/agent-runner) — the lightweight agent runtime that produces the `.jsonl` sessions this tool visualizes
